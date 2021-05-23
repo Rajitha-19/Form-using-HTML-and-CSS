@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+        <link href="formStyle.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">    
+    </head>
+    <body>
+        <div class="title"> 
+            <h1>Register Here</h1>    
+        </div>
+        <form method="GET" >
+            <div class="formclass">
+                <input class="firstname" type="text" name="name" placeholder="First name"><br>
+                <input class="lastnamename" type="text" name="name" placeholder="Last name"><br>
+                <input  type="email" name="email" placeholder="Email"><br>
+                <input type="tel" name="Phone Number" placeholder="Phone Number"><br>
+            </div>
+            <select class="select">
+                <option  value="Highest-Qualification" placeholder="Highest-Qualification" name="high qual"><h1>Highest Qualification</h1></option>
+                <option  value="SSC" >SSC</option>
+                <option  value="Inter" >Inter</option>
+                <option  value="B.tech" >B.Tech</option>
+                <option  value="M.Tech" >M.Tech</option>
+                <option  value="PhD">PhD</option>
+            </select><br>
+            <div class="address">
+                <input  type="text" name="name" placeholder="Address">
+            </div>
+            <p>Gender</p>
+            <div class="gender">
+                <input type="radio" id="male" name="male" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="female" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="other" value="other">
+                <label for="other">Other</label><br>
+            </div>
+            <button class="button" type="submit" value="submit">Submit</button>
+            <button class="button" type="reset" value="reset">Reset</button>
+        </form>
+    </body>
+</html>
